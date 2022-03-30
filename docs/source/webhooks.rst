@@ -13,8 +13,8 @@ Messages
 Your webhook URL should be prepared to receive the following messages:
 
 
-Bird detected and weighed
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+``weight``: Bird detected and weighed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This message is sent when a ringed bird is detected on the perch. A detection is valid if the RFID tag was successful read.
 
@@ -54,7 +54,7 @@ This message is sent when a ringed bird is detected on the perch. A detection is
 
 
 
-Device status
+``status``: Device status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Device status is sent twice a day.
@@ -92,7 +92,7 @@ Device status is sent twice a day.
 
 
 
-Offset
+``offset``: Tare weight
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is the tare weight (unladen weight) and is sent every 2 hours.
@@ -126,8 +126,8 @@ This is the tare weight (unladen weight) and is sent every 2 hours.
     :<json integer temperature: temperature in degrees Celsius (signed value)
 
 
-Calibration result
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+``calibration``: Calibration result
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This message is sent after the user has performed a calibration.
 
