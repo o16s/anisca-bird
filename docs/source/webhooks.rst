@@ -25,26 +25,28 @@ This message is sent when a ringed bird is detected on the perch. A detection is
     .. sourcecode:: json
 
         {
-        	"timestamp": 1648642396,
-        	"serial": "CODEABFFEE",
+            "timestamp": 1648642396,
+            "serial": "CODEABFFEE",
             "device_id": "secret-red-wake",
-        	"type": "weight",
+            "type": "weight",
+
             "activation": {
 
                 "latlng": "46.535,6.569",
                 "site_id": "rdc20",
                 "activation_date": "2022-05-02 17:32:50"
             },
-        	"body": {
 
-        		"duration": 12,
+            "body": {
+
+                "duration": 12,
                 "flags":"ab",
-        		"weight": 120.5,
-        		"uid": "0600c9a463",
-        		"raw_adc_pos": 56020,
-        		"stddev": 1,
-        		"temperature": -10
-        	}
+                "weight": 120.5,
+                "uid": "0600c9a463",
+                "raw_adc_pos": 56020,
+                "stddev": 1,
+                "temperature": -10
+            }
         }
 
     :<json integer timestamp: Epoch timestamp (UTC+0): seconds since January 1, 1970 12:00:00 AM
@@ -81,12 +83,14 @@ Device status is sent twice a day.
             "serial": "CODEABFFEE",
             "device_id": "secret-red-wake",
             "type": "status",
+
             "activation": {
 
                 "latlng": "46.535,6.569",
                 "site_id": "rdc20",
                 "activation_date": "2022-05-02 17:32:50"
             },
+
             "body": {
 
                 "header": "ff",
@@ -132,6 +136,7 @@ This is the tare weight (unladen weight) and is sent every 2 hours.
             "serial": "CODEABFFEE",
             "device_id": "secret-red-wake",
             "type": "offset",
+            
             "activation": {
 
                 "latlng": "46.535,6.569",
@@ -181,12 +186,14 @@ This message is sent after the user has performed a calibration.
             "serial": "CODEABFFEE",
             "device_id": "secret-red-wake",
             "type": "calibration",
+
             "activation": {
 
                 "latlng": "46.535,6.569",
                 "site_id": "rdc20",
                 "activation_date": "2022-05-02 17:32:50"
             },
+
             "body": {
 
                 "slope": 29,
