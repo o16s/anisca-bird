@@ -34,7 +34,7 @@ This message is sent when a ringed bird is detected on the perch. A detection is
 
                 "latlng": "46.535,6.569",
                 "site_id": "rdc20",
-                "activation_date": "2022-05-02 17:32:50"
+                "activation_date": 1648641394
             },
 
             "body": {
@@ -58,7 +58,7 @@ This message is sent when a ringed bird is detected on the perch. A detection is
     :<json integer duration: number of seconds that owl is on perch (max. 240)
     :<json integer flags: reserved
     :<json integer weight: weight estimate in 0.01 grams (unsigned value)
-    :<json integer uid: RFID UID lower 4 bytes
+    :<json integer uid: RFID UID (hexadecimal)
     :<json integer raw_adc_pos: raw ADC value from "positive excitation" (incl. offset)
     :<json integer stddev: weight measurement series standard deviation in 0.1 grams
     :<json integer temperature: temperature in degrees Celsius (signed value)
@@ -88,7 +88,7 @@ Device status is sent twice a day.
 
                 "latlng": "46.535,6.569",
                 "site_id": "rdc20",
-                "activation_date": "2022-05-02 17:32:50"
+                "activation_date": 1648641394
             },
 
             "body": {
@@ -141,7 +141,7 @@ This is the tare weight (unladen weight) and is sent every 2 hours.
 
                 "latlng": "46.535,6.569",
                 "site_id": "rdc20",
-                "activation_date": "2022-05-02 17:32:50"
+                "activation_date": 1648641376
             },
 
             "body": {
@@ -191,7 +191,7 @@ This message is sent after the user has performed a calibration.
 
                 "latlng": "46.535,6.569",
                 "site_id": "rdc20",
-                "activation_date": "2022-05-02 17:32:50"
+                "activation_date": 1648641376
             },
 
             "body": {
