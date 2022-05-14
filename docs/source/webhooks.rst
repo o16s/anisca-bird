@@ -58,7 +58,7 @@ This message is sent when a ringed bird is detected on the perch. A detection is
     :<json integer duration: number of seconds that owl is on perch (max. 240)
     :<json integer flags: reserved
     :<json integer weight: weight estimate in 0.01 grams (unsigned value)
-    :<json integer uid: RFID UID (hexadecimal)
+    :<json integer uid: RFID UID (hexadecimal). Attention: the second byte of the RFID tag is not transmitted in order to save data. Example: The UID 050031b049 will become 0531b049.
     :<json integer raw_adc_pos: raw ADC value from "positive excitation" (incl. offset)
     :<json integer stddev: weight measurement series standard deviation in 0.1 grams
     :<json integer temperature: temperature in degrees Celsius (signed value)
