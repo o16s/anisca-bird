@@ -12,9 +12,9 @@ Messages
 
 Your webhook URL should be prepared to receive the following messages:
 
-
 ``weight``: Bird detected and weighed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Weight Message:
 
 This message is sent when a ringed bird is detected on the perch. A detection is valid if the RFID tag was successful read.
 
@@ -66,7 +66,7 @@ This message is sent when a ringed bird is detected on the perch. A detection is
 
 
 
-
+.. _Status Message:
 ``status``: Device status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 

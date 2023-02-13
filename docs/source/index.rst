@@ -9,4 +9,7 @@ Contents
 --------
 
 .. toctree::
+   weight
+   status
    webhooks
+   

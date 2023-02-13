@@ -4,7 +4,7 @@
 
 project = 'Anisca Bird'
 copyright = '2022, Octanis Instruments GmbH'
-author = 'Sam Sulaimanov'
+author = 'Sam Sulaimanov, Raffael Tschui'
 
 release = '1.0'
 version = '1.0'
