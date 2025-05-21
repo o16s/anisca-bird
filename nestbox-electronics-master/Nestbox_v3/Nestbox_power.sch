@@ -1,0 +1,1068 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Nestbox_v2-rescue:L-device L201
+U 1 1 5A021289
+P 3700 3450
+F 0 "L201" V 3890 3450 50  0000 C CNN
+F 1 "5uH" V 3799 3450 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering" H 3700 3450 50  0001 C CNN
+F 3 "" H 3700 3450 50  0001 C CNN
+F 4 "MSS7341-502NLD" V 3700 3450 60  0001 C CNN "MPN"
+	1    3700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0210
+U 1 1 5A0217A9
+P 3000 2550
+F 0 "#PWR0210" H 3000 2300 50  0001 C CNN
+F 1 "GND" H 3005 2377 50  0000 C CNN
+F 2 "" H 3000 2550 50  0001 C CNN
+F 3 "" H 3000 2550 50  0001 C CNN
+	1    3000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C201
+U 1 1 5A0218AC
+P 1750 2150
+F 0 "C201" H 1865 2196 50  0000 L CNN
+F 1 "10u" H 1865 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 2000 50  0001 C CNN
+F 3 "" H 1750 2150 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    1750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0205
+U 1 1 5A021A75
+P 1750 2400
+F 0 "#PWR0205" H 1750 2150 50  0001 C CNN
+F 1 "GND" H 1755 2227 50  0000 C CNN
+F 2 "" H 1750 2400 50  0001 C CNN
+F 3 "" H 1750 2400 50  0001 C CNN
+	1    1750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:L-device L202
+U 1 1 5A022A1C
+P 4800 1500
+F 0 "L202" V 4990 1500 50  0000 C CNN
+F 1 "4.7uH" V 4899 1500 50  0000 C CNN
+F 2 "Inductor_SMD:L_1008_2520Metric" H 4800 1500 50  0001 C CNN
+F 3 "" H 4800 1500 50  0001 C CNN
+F 4 "DFE252010P-4R7M=P2" V 4800 1500 60  0001 C CNN "MPN"
+	1    4800 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0211
+U 1 1 5A022A31
+P 3000 4850
+F 0 "#PWR0211" H 3000 4600 50  0001 C CNN
+F 1 "GND" H 3005 4677 50  0000 C CNN
+F 2 "" H 3000 4850 50  0001 C CNN
+F 3 "" H 3000 4850 50  0001 C CNN
+	1    3000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C203
+U 1 1 5A022A38
+P 2150 4400
+F 0 "C203" H 2265 4446 50  0000 L CNN
+F 1 "10u" H 2265 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 4250 50  0001 C CNN
+F 3 "" H 2150 4400 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    2150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0207
+U 1 1 5A022A41
+P 2150 4650
+F 0 "#PWR0207" H 2150 4400 50  0001 C CNN
+F 1 "GND" H 2155 4477 50  0000 C CNN
+F 2 "" H 2150 4650 50  0001 C CNN
+F 3 "" H 2150 4650 50  0001 C CNN
+	1    2150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:+5V-power1 #PWR0223
+U 1 1 5A0232FE
+P 7600 4150
+F 0 "#PWR0223" H 7600 4000 50  0001 C CNN
+F 1 "+5V" V 7615 4278 50  0000 L CNN
+F 2 "" H 7600 4150 50  0001 C CNN
+F 3 "" H 7600 4150 50  0001 C CNN
+	1    7600 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:R-device R208
+U 1 1 5A0237B2
+P 5900 4300
+F 0 "R208" V 5693 4300 50  0000 C CNN
+F 1 "649k 1%" V 5784 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 4300 50  0001 C CNN
+F 3 "" H 5900 4300 50  0001 C CNN
+F 4 "RC0402FR-07649KL" H 0   0   50  0001 C CNN "MPN"
+	1    5900 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:R-device R207
+U 1 1 5A02384E
+P 5650 4550
+F 0 "R207" H 5580 4504 50  0000 R CNN
+F 1 "162k 1%" H 5580 4595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 4550 50  0001 C CNN
+F 3 "" H 5650 4550 50  0001 C CNN
+F 4 "RC0402FR-07162KL" H 0   0   50  0001 C CNN "MPN"
+	1    5650 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C209
+U 1 1 5A024214
+P 6300 4400
+F 0 "C209" H 6415 4446 50  0000 L CNN
+F 1 "10u" H 6415 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 4250 50  0001 C CNN
+F 3 "" H 6300 4400 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C210
+U 1 1 5A0242B6
+P 6700 4400
+F 0 "C210" H 6815 4446 50  0000 L CNN
+F 1 "10u" H 6815 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6738 4250 50  0001 C CNN
+F 3 "" H 6700 4400 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    6700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0221
+U 1 1 5A0246BF
+P 6500 4700
+F 0 "#PWR0221" H 6500 4450 50  0001 C CNN
+F 1 "GND" H 6505 4527 50  0000 C CNN
+F 2 "" H 6500 4700 50  0001 C CNN
+F 3 "" H 6500 4700 50  0001 C CNN
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0219
+U 1 1 5A0247CA
+P 5650 4800
+F 0 "#PWR0219" H 5650 4550 50  0001 C CNN
+F 1 "GND" H 5655 4627 50  0000 C CNN
+F 2 "" H 5650 4800 50  0001 C CNN
+F 3 "" H 5650 4800 50  0001 C CNN
+	1    5650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C208
+U 1 1 5A024E86
+P 6100 2150
+F 0 "C208" H 6215 2196 50  0000 L CNN
+F 1 "10u" H 6215 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 2000 50  0001 C CNN
+F 3 "" H 6100 2150 50  0001 C CNN
+F 4 "" H 800 0   50  0001 C CNN "MPN"
+	1    6100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0220
+U 1 1 5A024E9A
+P 6100 2650
+F 0 "#PWR0220" H 6100 2400 50  0001 C CNN
+F 1 "GND" H 6105 2477 50  0000 C CNN
+F 2 "" H 6100 2650 50  0001 C CNN
+F 3 "" H 6100 2650 50  0001 C CNN
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+Text HLabel 1600 3950 0    60   Input ~ 0
+5V_ENABLE
+Text HLabel 2450 2600 0    60   Input ~ 0
+HK_BAT_V
+Text Notes 700  1450 0    60   ~ 0
+TODO: add battery undervoltage protection circuit!\n(to enable pin!)\n\nOther option: Use 2 cell alkaline battery. 
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0224
+U 1 1 5B072B3F
+P 8950 1900
+F 0 "#PWR0224" H 8950 1650 50  0001 C CNN
+F 1 "GND" H 8950 1750 50  0000 C CNN
+F 2 "" H 8950 1900 50  0001 C CNN
+F 3 "" H 8950 1900 50  0001 C CNN
+	1    8950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:LD3985M U203
+U 1 1 5B0757BD
+P 3600 6400
+F 0 "U203" H 3600 6715 50  0000 C CNN
+F 1 "3.0V LDO " H 3600 6624 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3500 6150 50  0001 C CNN
+F 3 "" H 3600 6400 50  0001 C CNN
+F 4 "TPS70630DBVR" H 0   0   50  0001 C CNN "MPN"
+F 5 "TPS7A20" H 3600 6400 50  0001 C CNN "MPN2"
+F 6 "TPS76201QDBVRQ1 " H 3600 6400 50  0001 C CNN "MPN-adj"
+	1    3600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0214
+U 1 1 5B0757CA
+P 3600 6800
+F 0 "#PWR0214" H 3600 6550 50  0001 C CNN
+F 1 "GND" H 3605 6627 50  0000 C CNN
+F 2 "" H 3600 6800 50  0001 C CNN
+F 3 "" H 3600 6800 50  0001 C CNN
+	1    3600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:VAA-power1 #PWR0218
+U 1 1 5B0757D1
+P 5350 6200
+F 0 "#PWR0218" H 5350 6050 50  0001 C CNN
+F 1 "VAA" H 5367 6373 50  0000 C CNN
+F 2 "" H 5350 6200 50  0001 C CNN
+F 3 "" H 5350 6200 50  0001 C CNN
+	1    5350 6200
+	1    0    0    -1  
+$EndComp
+Text HLabel 2800 6450 0    60   Input ~ 0
+ADC_LDO_EN
+$Comp
+L Nestbox_v2-rescue:TPS62745-Octanis3 U201
+U 1 1 5B08EADA
+P 3250 1450
+F 0 "U201" H 3350 1500 60  0000 C CNN
+F 1 "TPS62745" V 3750 900 60  0000 C CNN
+F 2 "lib_fp:WSON_3x2mm_12pin" H 3250 1450 60  0001 C CNN
+F 3 "" H 3250 1450 60  0001 C CNN
+F 4 "TPS62745DSSR" H 0   0   50  0001 C CNN "MPN"
+	1    3250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:+BATT-power1 #PWR0201
+U 1 1 5B09033A
+P 700 1900
+F 0 "#PWR0201" H 700 1750 50  0001 C CNN
+F 1 "+BATT" H 700 2040 50  0000 C CNN
+F 2 "" H 700 1900 50  0001 C CNN
+F 3 "" H 700 1900 50  0001 C CNN
+	1    700  1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:+BATT-power1 #PWR0203
+U 1 1 5B090391
+P 1300 3550
+F 0 "#PWR0203" H 1300 3400 50  0001 C CNN
+F 1 "+BATT" H 1300 3690 50  0000 C CNN
+F 2 "" H 1300 3550 50  0001 C CNN
+F 3 "" H 1300 3550 50  0001 C CNN
+	1    1300 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 2800 2050 0    60   Input ~ 0
+BAT_TEST_ENABLE
+$Comp
+L Nestbox_v2-rescue:R-device R202
+U 1 1 5B090A89
+P 2550 2350
+F 0 "R202" V 2343 2350 50  0000 C CNN
+F 1 "82k" V 2434 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 2350 50  0001 C CNN
+F 3 "" H 2550 2350 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    2550 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:R-device R203
+U 1 1 5B090AF9
+P 2550 2800
+F 0 "R203" V 2343 2800 50  0000 C CNN
+F 1 "47k" V 2434 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 2800 50  0001 C CNN
+F 3 "" H 2550 2800 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    2550 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0209
+U 1 1 5B090D04
+P 2550 2950
+F 0 "#PWR0209" H 2550 2700 50  0001 C CNN
+F 1 "GND" H 2555 2777 50  0000 C CNN
+F 2 "" H 2550 2950 50  0001 C CNN
+F 3 "" H 2550 2950 50  0001 C CNN
+	1    2550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C202
+U 1 1 5B095215
+P 1850 6600
+F 0 "C202" H 1965 6646 50  0000 L CNN
+F 1 "1u" H 1965 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 6450 50  0001 C CNN
+F 3 "" H 1850 6600 50  0001 C CNN
+F 4 "" H -650 0   50  0001 C CNN "MPN"
+	1    1850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0206
+U 1 1 5B095296
+P 1850 6850
+F 0 "#PWR0206" H 1850 6600 50  0001 C CNN
+F 1 "GND" H 1855 6677 50  0000 C CNN
+F 2 "" H 1850 6850 50  0001 C CNN
+F 3 "" H 1850 6850 50  0001 C CNN
+	1    1850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C204
+U 1 1 5B095439
+P 4850 6600
+F 0 "C204" H 4965 6646 50  0000 L CNN
+F 1 "1u or 4u7 for adjustable version" H 4965 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4888 6450 50  0001 C CNN
+F 3 "" H 4850 6600 50  0001 C CNN
+F 4 "" H 450 0   50  0001 C CNN "MPN"
+	1    4850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0215
+U 1 1 5B095588
+P 4850 7300
+F 0 "#PWR0215" H 4850 7050 50  0001 C CNN
+F 1 "GND" H 4855 7127 50  0000 C CNN
+F 2 "" H 4850 7300 50  0001 C CNN
+F 3 "" H 4850 7300 50  0001 C CNN
+	1    4850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:+BATT-power1 #PWR0225
+U 1 1 5B0B9A8C
+P 9400 1500
+F 0 "#PWR0225" H 9400 1350 50  0001 C CNN
+F 1 "+BATT" H 9400 1640 50  0000 C CNN
+F 2 "" H 9400 1500 50  0001 C CNN
+F 3 "" H 9400 1500 50  0001 C CNN
+	1    9400 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1900 1750 1900
+Connection ~ 2900 1900
+Wire Wire Line
+	1750 1900 1750 2000
+Connection ~ 1750 1900
+Wire Wire Line
+	1750 2400 1750 2300
+Connection ~ 5150 1900
+Wire Wire Line
+	1300 3550 2150 3550
+Wire Wire Line
+	2150 4050 2150 4150
+Connection ~ 2150 4150
+Wire Wire Line
+	2150 4650 2150 4550
+Wire Wire Line
+	4450 4150 4550 4150
+Wire Wire Line
+	4450 4300 5350 4300
+Wire Wire Line
+	5650 4300 5650 4400
+Connection ~ 5650 4300
+Wire Wire Line
+	6100 4300 6050 4300
+Wire Wire Line
+	6100 4300 6100 4150
+Connection ~ 6100 4150
+Wire Wire Line
+	6300 4150 6300 4250
+Wire Wire Line
+	6700 4150 6700 4250
+Connection ~ 6700 4150
+Wire Wire Line
+	6300 4550 6300 4650
+Wire Wire Line
+	6300 4650 6500 4650
+Wire Wire Line
+	6700 4650 6700 4550
+Connection ~ 6300 4150
+Wire Wire Line
+	6500 4650 6500 4700
+Connection ~ 6500 4650
+Wire Wire Line
+	5650 4700 5650 4800
+Wire Wire Line
+	6100 1900 6100 2000
+Wire Wire Line
+	6100 2300 6100 2500
+Wire Wire Line
+	2900 1900 2900 1700
+Wire Wire Line
+	1550 6350 1850 6350
+Wire Wire Line
+	2800 6450 3000 6450
+Wire Wire Line
+	4100 6350 4450 6350
+Wire Wire Line
+	5150 1500 5150 1900
+Wire Wire Line
+	4450 1900 5150 1900
+Wire Wire Line
+	2550 2500 2550 2600
+Wire Wire Line
+	2550 2600 2450 2600
+Connection ~ 2550 2600
+Wire Wire Line
+	1850 6850 1850 6750
+Wire Wire Line
+	1850 6350 1850 6450
+Connection ~ 1850 6350
+Wire Wire Line
+	5350 6200 5350 6350
+Wire Wire Line
+	4850 7300 4850 7250
+$Comp
+L Nestbox_v2-rescue:LTC3534-Octanis3 U202
+U 1 1 5B118416
+P 3250 3700
+F 0 "U202" H 3250 3700 60  0000 C CNN
+F 1 "LTC3534" V 3750 3150 60  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 3250 3700 60  0001 C CNN
+F 3 "" H 3250 3700 60  0001 C CNN
+F 4 "LTC3534EDHC#PBF" H 0   0   50  0001 C CNN "MPN"
+	1    3250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3450 2900 3450
+Wire Wire Line
+	2900 3450 2900 3800
+Wire Wire Line
+	3850 3450 4600 3450
+Wire Wire Line
+	4600 3450 4600 3800
+$Comp
+L Nestbox_v2-rescue:R-device R205
+U 1 1 5B119694
+P 4750 4050
+F 0 "R205" H 4680 4004 50  0000 R CNN
+F 1 "10k" H 4680 4095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 4050 50  0001 C CNN
+F 3 "" H 4750 4050 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    4750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C207
+U 1 1 5B11973C
+P 5150 4050
+F 0 "C207" H 5265 4096 50  0000 L CNN
+F 1 "33p" H 5265 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 3900 50  0001 C CNN
+F 3 "" H 5150 4050 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    5150 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 4150 4550 4050
+Wire Wire Line
+	4550 4050 4600 4050
+Connection ~ 4550 4150
+Wire Wire Line
+	4900 4050 5000 4050
+Wire Wire Line
+	5350 4050 5300 4050
+Wire Wire Line
+	5350 4050 5350 4300
+Connection ~ 5350 4300
+$Comp
+L Nestbox_v2-rescue:R-device R206
+U 1 1 5B119A58
+P 5150 4450
+F 0 "R206" H 5080 4404 50  0000 R CNN
+F 1 "15k" H 5080 4495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 4450 50  0001 C CNN
+F 3 "" H 5150 4450 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    5150 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Nestbox_v2-rescue:C-device C205
+U 1 1 5B119ABA
+P 4750 4450
+F 0 "C205" H 4865 4496 50  0000 L CNN
+F 1 "330p" H 4865 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 4300 50  0001 C CNN
+F 3 "" H 4750 4450 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    4750 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 4450 4550 4450
+Wire Wire Line
+	4900 4450 5000 4450
+Wire Wire Line
+	5350 4450 5300 4450
+$Comp
+L Nestbox_v2-rescue:C-device C206
+U 1 1 5B119DD0
+P 5000 4750
+F 0 "C206" H 5115 4796 50  0000 L CNN
+F 1 "10p" H 5115 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5038 4600 50  0001 C CNN
+F 3 "" H 5000 4750 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    5000 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4750 5150 4750
+Connection ~ 5350 4450
+Wire Wire Line
+	4850 4750 4550 4750
+Wire Wire Line
+	4550 4750 4550 4450
+Connection ~ 4550 4450
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0216
+U 1 1 5B11A0A6
+P 4500 4900
+F 0 "#PWR0216" H 4500 4650 50  0001 C CNN
+F 1 "GND" H 4505 4727 50  0000 C CNN
+F 2 "" H 4500 4900 50  0001 C CNN
+F 3 "" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 4500 0    60   ~ 0
+Low ESR capacitors should be used \nto minimize output voltage ripple. \n
+Wire Wire Line
+	4650 1500 4450 1500
+Wire Wire Line
+	4950 1500 5150 1500
+Wire Wire Line
+	4550 2500 4450 2500
+Wire Wire Line
+	4450 2400 4550 2400
+Wire Wire Line
+	2900 1700 3050 1700
+Wire Wire Line
+	3050 2050 2800 2050
+Wire Wire Line
+	3050 2200 2550 2200
+Wire Wire Line
+	3000 2550 3000 2400
+Wire Wire Line
+	3000 2400 3050 2400
+$Comp
+L Nestbox_v2-rescue:+BATT-power1 #PWR0217
+U 1 1 5B14A10E
+P 5350 2000
+F 0 "#PWR0217" H 5350 1850 50  0001 C CNN
+F 1 "+BATT" V 5350 2250 50  0000 C CNN
+F 2 "" H 5350 2000 50  0001 C CNN
+F 3 "" H 5350 2000 50  0001 C CNN
+	1    5350 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3800 3050 3800
+Wire Wire Line
+	1600 3950 1700 3950
+Wire Wire Line
+	3050 4050 2150 4050
+Wire Wire Line
+	3050 4600 3000 4600
+Wire Wire Line
+	3000 4600 3000 4650
+Wire Wire Line
+	3050 4650 3000 4650
+Connection ~ 3000 4650
+Wire Wire Line
+	3050 4700 3000 4700
+Connection ~ 3000 4700
+Wire Wire Line
+	3050 4750 3000 4750
+Connection ~ 3000 4750
+Wire Wire Line
+	3050 4800 3000 4800
+Connection ~ 3000 4800
+Wire Wire Line
+	4450 4650 4500 4650
+Wire Wire Line
+	4500 4650 4500 4750
+Wire Wire Line
+	4450 4750 4500 4750
+Connection ~ 4500 4750
+Wire Wire Line
+	4600 3800 4450 3800
+NoConn ~ 4450 1700
+Wire Wire Line
+	3500 2800 3500 2850
+Wire Wire Line
+	3500 2850 3600 2850
+Wire Wire Line
+	3600 2850 3600 2800
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0213
+U 1 1 5B18018D
+P 3500 2850
+F 0 "#PWR0213" H 3500 2600 50  0001 C CNN
+F 1 "GND" H 3505 2677 50  0000 C CNN
+F 2 "" H 3500 2850 50  0001 C CNN
+F 3 "" H 3500 2850 50  0001 C CNN
+	1    3500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nestbox_v2-rescue:Q_PMOS_DGS-device Q201
+U 1 1 5B18086E
+P 8950 1650
+F 0 "Q201" H 9150 1700 50  0000 L CNN
+F 1 "TPH1R712MDL1Q" H 9150 1600 50  0000 L CNN
+F 2 "lib_fp:TDSON-8-1_HandSoldering" H 9150 1750 50  0001 C CNN
+F 3 "" H 8950 1650 50  0001 C CNN
+F 4 "TPH1R712MD,L1Q" H 8950 1650 60  0001 C CNN "MPN"
+	1    8950 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 1850 8950 1900
+$Comp
+L Nestbox_v2-rescue:R-device R201
+U 1 1 5B28CE2A
+P 1700 4150
+F 0 "R201" V 1493 4150 50  0000 C CNN
+F 1 "82k" V 1584 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 4150 50  0001 C CNN
+F 3 "" H 1700 4150 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    1700 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4000 1700 3950
+Connection ~ 1700 3950
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0204
+U 1 1 5B28CF96
+P 1700 4350
+F 0 "#PWR0204" H 1700 4100 50  0001 C CNN
+F 1 "GND" H 1705 4177 50  0000 C CNN
+F 2 "" H 1700 4350 50  0001 C CNN
+F 3 "" H 1700 4350 50  0001 C CNN
+	1    1700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4350 1700 4300
+$Comp
+L Nestbox_v2-rescue:R-device R204
+U 1 1 5B28D28A
+P 3000 6650
+F 0 "R204" V 2793 6650 50  0000 C CNN
+F 1 "DNP" V 2884 6650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 6650 50  0001 C CNN
+F 3 "" H 3000 6650 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MPN"
+	1    3000 6650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 6500 3000 6450
+Connection ~ 3000 6450
+$Comp
+L Nestbox_v2-rescue:GND-power1 #PWR0212
+U 1 1 5B28D3DF
+P 3000 6800
+F 0 "#PWR0212" H 3000 6550 50  0001 C CNN
+F 1 "GND" H 3005 6627 50  0000 C CNN
+F 2 "" H 3000 6800 50  0001 C CNN
+F 3 "" H 3000 6800 50  0001 C CNN
+	1    3000 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1900 3050 1900
+Wire Wire Line
+	1750 1900 2900 1900
+Wire Wire Line
+	5150 1900 6100 1900
+Wire Wire Line
+	2150 4150 2700 4150
+Wire Wire Line
+	2150 4150 2150 4250
+Wire Wire Line
+	5650 4300 5750 4300
+Wire Wire Line
+	6100 4150 6300 4150
+Wire Wire Line
+	6700 4150 7600 4150
+Wire Wire Line
+	6300 4150 6700 4150
+Wire Wire Line
+	6500 4650 6700 4650
+Wire Wire Line
+	6500 1900 6850 1900
+Wire Wire Line
+	4550 2400 4550 2500
+Wire Wire Line
+	2550 2600 2550 2650
+Wire Wire Line
+	1850 6350 3100 6350
+Wire Wire Line
+	4850 6350 4850 6450
+Wire Wire Line
+	4550 4150 6100 4150
+Wire Wire Line
+	5350 4300 5650 4300
+Wire Wire Line
+	5350 4300 5350 4450
+Wire Wire Line
+	5350 4450 5350 4750
+Wire Wire Line
+	4550 4450 4600 4450
+Wire Wire Line
+	3000 4650 3000 4700
+Wire Wire Line
+	3000 4700 3000 4750
+Wire Wire Line
+	3000 4750 3000 4800
+Wire Wire Line
+	3000 4800 3000 4850
+Wire Wire Line
+	4500 4750 4500 4900
+Wire Wire Line
+	1700 3950 3050 3950
+Wire Wire Line
+	3000 6450 3100 6450
+Text Notes 3400 3650 0    60   ~ 0
+2.4V to 7V VIN
+Text Notes 4000 1150 0    60   ~ 0
+InputVoltageRangeVINfrom3.3 V to 10 V
+Wire Wire Line
+	8750 1550 8600 1550
+Text GLabel 8600 1550 0    60   Output ~ 0
+BAT_IN
+Text Notes 10400 2150 2    60   ~ 0
+Alternative part (used in CLM proj): SSM3J338R,LF
+Wire Wire Line
+	9400 1550 9150 1550
+Wire Wire Line
+	9400 1500 9400 1550
+$Comp
+L power:VCC #PWR0202
+U 1 1 60BC8B50
+P 1000 6000
+F 0 "#PWR0202" H 1000 5850 50  0001 C CNN
+F 1 "VCC" H 1017 6173 50  0000 C CNN
+F 2 "" H 1000 6000 50  0001 C CNN
+F 3 "" H 1000 6000 50  0001 C CNN
+	1    1000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0222
+U 1 1 60BCC824
+P 7100 1850
+F 0 "#PWR0222" H 7100 1700 50  0001 C CNN
+F 1 "VCC" H 7117 2023 50  0000 C CNN
+F 2 "" H 7100 1850 50  0001 C CNN
+F 3 "" H 7100 1850 50  0001 C CNN
+	1    7100 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1850 7100 1900
+$Comp
+L Device:Jumper_NC_Small JP206
+U 1 1 60D1E93E
+P 6400 1900
+F 0 "JP206" H 6400 2112 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6400 2021 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6400 1900 50  0001 C CNN
+F 3 "~" H 6400 1900 50  0001 C CNN
+	1    6400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1900 6100 1900
+Connection ~ 6100 1900
+$Comp
+L Jumper:Jumper_3_Bridged12 JP201
+U 1 1 60D2D716
+P 1550 6100
+F 0 "JP201" H 1550 6304 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 1550 6213 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1550 6100 50  0001 C CNN
+F 3 "~" H 1550 6100 50  0001 C CNN
+	1    1550 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6100 1300 6100
+Wire Wire Line
+	1000 6000 1000 6100
+Wire Wire Line
+	1550 6250 1550 6350
+Wire Wire Line
+	2150 6000 2150 6100
+Wire Wire Line
+	2150 6100 1800 6100
+$Comp
+L Device:Jumper_NC_Small JP204
+U 1 1 60D52521
+P 5100 6350
+F 0 "JP204" H 5100 6562 50  0000 C CNN
+F 1 "VAA jumper" H 5100 6471 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5100 6350 50  0001 C CNN
+F 3 "~" H 5100 6350 50  0001 C CNN
+	1    5100 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6350 4850 6350
+Connection ~ 4850 6350
+Wire Wire Line
+	5200 6350 5350 6350
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP205
+U 1 1 60D9DA96
+P 5150 2200
+F 0 "JP205" V 5104 2268 50  0000 L CNN
+F 1 "vsel 0.1" V 5195 2268 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 5150 2200 50  0001 C CNN
+F 3 "~" H 5150 2200 50  0001 C CNN
+	1    5150 2200
+	0    1    1    0   
+$EndComp
+Connection ~ 5150 2000
+Wire Wire Line
+	4450 2200 5000 2200
+Wire Wire Line
+	4550 2400 4550 2000
+Connection ~ 4550 2400
+Wire Wire Line
+	5150 2500 5150 2400
+Wire Wire Line
+	5150 2500 6100 2500
+Connection ~ 5150 2500
+Connection ~ 6100 2500
+Wire Wire Line
+	6100 2500 6100 2650
+Wire Wire Line
+	5150 2000 5350 2000
+Text Notes 3450 6000 0    60   ~ 0
+3.0V output
+$Comp
+L Nestbox_v2-rescue:+5V-power1 #PWR0208
+U 1 1 60DF0FF8
+P 2150 6000
+F 0 "#PWR0208" H 2150 5850 50  0001 C CNN
+F 1 "+5V" V 2165 6128 50  0000 L CNN
+F 2 "" H 2150 6000 50  0001 C CNN
+F 3 "" H 2150 6000 50  0001 C CNN
+	1    2150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP202
+U 1 1 60DF8365
+P 2150 3800
+F 0 "JP202" V 2104 3752 50  0000 R CNN
+F 1 "5V boost supply jumper" V 2195 3752 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 3800 50  0001 C CNN
+F 3 "~" H 2150 3800 50  0001 C CNN
+	1    2150 3800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2150 3700 2150 3550
+Wire Wire Line
+	2150 3900 2150 4050
+Connection ~ 2150 4050
+Text Notes 2150 5500 0    60   ~ 0
+Quiescent current is only 25μA in Burst Mode operation,\n maximizing battery life in portable applications. \nBurst Mode operation is user controlled and can \nbe enabled by driving the PWM pin low.
+Wire Wire Line
+	3050 4400 3000 4400
+Wire Wire Line
+	3000 4400 3000 4600
+Connection ~ 3000 4600
+$Comp
+L power:PWR_FLAG #FLG0201
+U 1 1 60E70939
+P 2700 4150
+F 0 "#FLG0201" H 2700 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 2700 4323 50  0000 C CNN
+F 2 "" H 2700 4150 50  0001 C CNN
+F 3 "~" H 2700 4150 50  0001 C CNN
+	1    2700 4150
+	-1   0    0    1   
+$EndComp
+Connection ~ 2700 4150
+Wire Wire Line
+	2700 4150 3050 4150
+$Comp
+L power:PWR_FLAG #FLG0202
+U 1 1 60E7351B
+P 5350 6350
+F 0 "#FLG0202" H 5350 6425 50  0001 C CNN
+F 1 "PWR_FLAG" V 5350 6478 50  0000 L CNN
+F 2 "" H 5350 6350 50  0001 C CNN
+F 3 "~" H 5350 6350 50  0001 C CNN
+	1    5350 6350
+	0    1    1    0   
+$EndComp
+Connection ~ 5350 6350
+$Comp
+L power:PWR_FLAG #FLG0204
+U 1 1 60E73CA2
+P 9550 1550
+F 0 "#FLG0204" H 9550 1625 50  0001 C CNN
+F 1 "PWR_FLAG" V 9550 1678 50  0000 L CNN
+F 2 "" H 9550 1550 50  0001 C CNN
+F 3 "~" H 9550 1550 50  0001 C CNN
+	1    9550 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 1550 9400 1550
+Connection ~ 9400 1550
+Connection ~ 4750 2000
+Wire Wire Line
+	4550 2000 4750 2000
+Wire Wire Line
+	5150 2000 4750 2000
+Wire Wire Line
+	4450 2300 4600 2300
+Wire Wire Line
+	4750 2000 4750 2100
+Wire Wire Line
+	4750 2500 5150 2500
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP203
+U 1 1 60D86907
+P 4750 2300
+F 0 "JP203" V 4704 2368 50  0000 L CNN
+F 1 "vsel 0.2" V 4795 2368 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 4750 2300 50  0001 C CNN
+F 3 "~" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0203
+U 1 1 60EA3B67
+P 6850 1800
+F 0 "#FLG0203" H 6850 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 6850 1973 50  0000 C CNN
+F 2 "" H 6850 1800 50  0001 C CNN
+F 3 "~" H 6850 1800 50  0001 C CNN
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1800 6850 1900
+Connection ~ 6850 1900
+Wire Wire Line
+	6850 1900 7100 1900
+$Comp
+L Nestbox_v2-rescue:R-device R209
+U 1 1 60C06707
+P 4450 6550
+F 0 "R209" V 4243 6550 50  0000 C CNN
+F 1 "DNP" V 4334 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 6550 50  0001 C CNN
+F 3 "" H 4450 6550 50  0001 C CNN
+F 4 "" H 1450 -100 50  0001 C CNN "MPN"
+	1    4450 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 6400 4450 6350
+Connection ~ 4450 6350
+Wire Wire Line
+	4450 6350 4850 6350
+$Comp
+L Nestbox_v2-rescue:R-device R210
+U 1 1 60C12EE0
+P 4450 7050
+F 0 "R210" V 4243 7050 50  0000 C CNN
+F 1 "DNP" V 4334 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 7050 50  0001 C CNN
+F 3 "" H 4450 7050 50  0001 C CNN
+F 4 "" H 1450 400 50  0001 C CNN "MPN"
+	1    4450 7050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 6700 4450 6800
+Text Notes 1950 7200 0    60   ~ 0
+NOTE: adjustable part has active-low ENABLE
+Wire Wire Line
+	4450 7200 4450 7250
+Wire Wire Line
+	4450 7250 4850 7250
+Connection ~ 4850 7250
+Wire Wire Line
+	4850 7250 4850 6750
+Wire Wire Line
+	4450 6800 4250 6800
+Wire Wire Line
+	4250 6800 4250 6450
+Wire Wire Line
+	4250 6450 4100 6450
+Connection ~ 4450 6800
+Wire Wire Line
+	4450 6800 4450 6900
+$EndSCHEMATC

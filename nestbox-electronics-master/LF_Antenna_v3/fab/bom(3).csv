@@ -1,0 +1,20 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN
+1,,CONSMA003.031-G,J1,SMA-Female,LINX_CONSMA003.031-G,1,,CONSMA003.031
+2,Inductor,L,L1,LF-ANT,R_1206_3216Metric,1,~,OCTANIS-JZCOIL-120
+
+
+
+
+
+Project info:
+Schematic:,LF_Antenna_v3
+Variant:,default
+Revision:,
+Date:,2021-03-15_15-58-28
+KiCad Version:,5.1.6-c6e7f7d~87~ubuntu20.04.1
+Statistics:
+Component Groups:,2
+Component Count:,2
+Fitted Components:,2
+Number of PCBs:,1
+Total Components:,2

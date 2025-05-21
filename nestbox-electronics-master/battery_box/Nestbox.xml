@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/raffael/octanis/clients/nestbox/nestbox-electronics/battery_box/Nestbox.kicad_sch</source>
+    <date>2022 February 02, Wednesday 21:31:04</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NB2-Battery Box</title>
+        <company>Octanis Instruments GmbH</company>
+        <rev>1.2</rev>
+        <date>2022-02-02</date>
+        <source>Nestbox.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery-4xNiMH</value>
+      <footprint>TerminalBlock_Dinkle:TerminalBlock_Dinkle_DT-55-B01X-02_P10.00mm</footprint>
+      <libsource lib="Octanis3" part="Battery-RESCUE-Nestbox_v1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03117f4a-886a-42d6-aee5-be411f54d576</tstamps>
+    </comp>
+    <comp ref="BZ1">
+      <value>DNP</value>
+      <footprint>Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT</footprint>
+      <fields>
+        <field name="MPN">SMT-0827-SW-5V-R</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="MPN" value="SMT-0827-SW-5V-R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5c483dc-aa49-49df-a4e3-b1c375d6858f</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Nestbox_v2-rescue" part="C-device" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060c58b2f</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfe2e29b-66a8-4293-90aa-30815a841c98</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Nestbox_v2-rescue" part="C-device" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0239a7dc-4f11-4dd5-9564-b10e3cb51ffa</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>DNP</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Nestbox_v2-rescue" part="C-device" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>604c718a-4c4e-4ddb-9872-b10314f39bc0</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>DNP</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="MPN">B0520WS-7-F</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description=""/>
+      <property name="MPN" value="B0520WS-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba7dc470-e81e-48f8-b801-e3ad56903912</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>schottky</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="MPN">B0520WS-7-F</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description=""/>
+      <property name="MPN" value="B0520WS-7-F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84236167-2bac-4a5c-9847-16e4259b8366</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="MPN">WP934EW/ID</field>
+      </fields>
+      <libsource lib="Device" part="LED" description=""/>
+      <property name="MPN" value="WP934EW/ID"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7433149a-3442-4eee-99ae-1419fe045805</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>DNP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-723</footprint>
+      <fields>
+        <field name="MPN">SZESD7205DT5G</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SP0502BAHT" description=""/>
+      <property name="MPN" value="SZESD7205DT5G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe25c852-9aa1-4448-b215-65e3e40376bb</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>TVS DIODE 12V 23.7V</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="MPN">UCLAMP1201H.TCT</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description=""/>
+      <property name="MPN" value="UCLAMP1201H.TCT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b17e7f4-21d7-46c7-abe6-3f17b6471acc</tstamps>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>lib_fp_global:oi_logo_small</footprint>
+      <libsource lib="oi_logo" part="LOGO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060fa2121</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ace0b5e-d929-4d90-bc77-466bd393ce3d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000608602a9</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aeedf50-f80c-4969-8d3a-a825dd2b85a9</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>766ed701-018b-4c21-bd08-6fa566a7fa59</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac6141aa-e54c-4314-b4c8-002a1188d041</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2420bccc-0332-4f5c-a5fe-ede266b51081</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad3f3f6d-e558-45db-ac4d-f342c5318282</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>350b80f1-988c-4bf3-ba6d-8a957b3d1327</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>FC-M8-5</value>
+      <footprint>lib_fp:M8-5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</datasheet>
+      <fields>
+        <field name="MPN">MB08MBSBFF05RA</field>
+        <field name="MPN2">1424240</field>
+      </fields>
+      <libsource lib="Octanis3" part="FC-M8-5" description="5-pin DIN connector"/>
+      <property name="MPN2" value="1424240"/>
+      <property name="MPN" value="MB08MBSBFF05RA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060fca815</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>lib_fp:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.jae.com/en/releases/detail/id=92529</datasheet>
+      <fields>
+        <field name="MPN">USB4105-GF-A</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description=""/>
+      <property name="MPN" value="USB4105-GF-A"/>
+      <property name="MPN2-NOT-VALID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08bde83c-13ad-46b4-a6d3-b0304a376443</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>FC-M8-5</value>
+      <footprint>lib_fp:M8-5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</datasheet>
+      <fields>
+        <field name="MPN">MB08MBSBFF05RA</field>
+        <field name="MPN2">1424240</field>
+      </fields>
+      <libsource lib="Octanis3" part="FC-M8-5" description="5-pin DIN connector"/>
+      <property name="MPN2" value="1424240"/>
+      <property name="MPN" value="MB08MBSBFF05RA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>250e48fb-e2d3-44be-a21e-1a17c0d65000</tstamps>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>lib_fp:VogelwarteLogo3</footprint>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060c5bc07</tstamps>
+    </comp>
+    <comp ref="LS1">
+      <value>SMT-0931-S-R</value>
+      <footprint>lib_fp:SMT-0931-S-R</footprint>
+      <fields>
+        <field name="MPN">SMT-0931-S-R</field>
+      </fields>
+      <libsource lib="SMT-0931-S-R" part="SMT-0931-S-R" description=""/>
+      <property name="MPN" value="SMT-0931-S-R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06c97e15-c76e-4b30-9020-eb893edf6d7c</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>NMOS 30V 4A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="MPN">PMV45EN2R</field>
+      </fields>
+      <libsource lib="Nestbox_v2-rescue" part="Q_NMOS_GSD-device" description=""/>
+      <property name="MPN" value="PMV45EN2R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6273542-3f56-4285-82cc-566df5aaf0cd</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PMOS 20V 3A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="MPN">DMP2160U-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description=""/>
+      <property name="MPN" value="DMP2160U-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f89e0de-37e5-4e31-a32c-28397441e269</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36e783d5-9ae1-4da1-b87d-c4c3d6925974</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>430R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b8581cb-6f39-4703-85a9-1463239e2c85</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>244d5db0-f77b-4ffb-ac11-8e0687f7d75f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8516eb3b-fe93-4855-82ba-a92dba2597c9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eed78cf-41a4-45a4-91a0-c03ac446e16d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37319c31-277d-4b56-af30-35197009e21c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e7fe04a-5983-45ca-b62b-77d9b2d44905</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da1e4050-e8e7-4b15-bf85-d0b9df22c8f0</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af540fc8-977e-47e4-9007-36dfff3badc7</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62da4298-1939-4777-a94b-955c6d14b036</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Nestbox.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Device_D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Device_D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Device_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Device_Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Device_R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Graphic_Logo_Open_Hardware_Small</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Mechanical_MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v2-rescue" part="C-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v2-rescue" part="Q_NMOS_GSD-device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Octanis3" part="Battery-RESCUE-Nestbox_v1">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery-RESCUE-Nestbox_v1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Octanis3" part="FC-M8-5">
+      <description>5-pin DIN connector</description>
+      <docs>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</docs>
+      <footprints>
+        <fp>DIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FC-M8-5</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="SP0502BAHT">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Power_Protection_SP0502BAHT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SMT-0931-S-R" part="SMT-0931-S-R">
+      <footprints>
+        <fp>SMT-0931-S-R_PUI</fp>
+        <fp>SMT-0931-S-R_PUI-M</fp>
+        <fp>SMT-0931-S-R_PUI-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">SMT-0931-S-R</field>
+        <field name="Footprint">SMT-0931-S-R_PUI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oi_logo" part="LOGO">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">oi_logo_LOGO</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Nestbox_v2-rescue">
+      <uri>/Users/raffael/octanis/clients/nestbox/nestbox-electronics/battery_box/Nestbox_v2-rescue.lib</uri>
+    </library>
+    <library logical="Octanis3">
+      <uri>/Users/raffael/octanis/clients/nestbox/nestbox-electronics/battery_box/../lib_sch/Octanis3.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="A4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J2" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="BAT_IN">
+      <node ref="BT1" pin="1" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Earth">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="BT1" pin="2" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="A1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(BZ1-Pad1)">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="LS1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="LS1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(BZ1-Pad2)">
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="LS1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="LS1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J2-PadA5)">
+      <node ref="J2" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="USB_PORT2_D+">
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="USB_PORT2_D-">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="USB_PORT_D+">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="J2" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J2" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="USB_PORT_D-">
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J2" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="USER_GPIO">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(H1-Pad1)">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(H2-Pad1)">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(H3-Pad1)">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(H4-Pad1)">
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(H5-Pad1)">
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="23" name="unconnected-(H6-Pad1)">
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(H7-Pad1)">
+      <node ref="H7" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(H8-Pad1)">
+      <node ref="H8" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="26" name="unconnected-(J2-PadA8)">
+      <node ref="J2" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J2-PadB8)">
+      <node ref="J2" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

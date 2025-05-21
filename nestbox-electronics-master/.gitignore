@@ -1,0 +1,10 @@
+*-bak
+*-cache*
+*-bak*
+_autosave*
+*DS_Store
+*-backups/*
+Nestbox_v3_1/Nestbox-backups/*
+battery_box/Nestbox-backups/*
+Nestbox_v3_2/Nestbox-backups/*
+*-backups*

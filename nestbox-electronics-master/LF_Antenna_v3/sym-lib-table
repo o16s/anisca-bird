@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CONSMA003.031-G)(type Legacy)(uri /Users/sam/Repositories/nestbox-electronics/lib_sch/CONSMA003.031-G.lib)(options "")(descr ""))
+  (lib (name Octanis3)(type Legacy)(uri /Users/sam/Repositories/nestbox-electronics/lib_sch/Octanis3.lib)(options "")(descr ""))
+)

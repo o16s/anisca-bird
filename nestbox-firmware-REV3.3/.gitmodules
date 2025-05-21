@@ -1,0 +1,6 @@
+[submodule "nestbox-fw/Drivers/GD5F1GQ4"]
+	path = nestbox-fw/Drivers/GD5F1GQ4
+	url = git@make-ssh.octanis.ch:oi/oi-drivers/gd5f1gq4.git
+[submodule "nestbox-fw/Drivers/dhara-ftl"]
+	path = nestbox-fw/Drivers/dhara-ftl
+	url = git@make-ssh.octanis.ch:oi/oi-drivers/dhara-ftl

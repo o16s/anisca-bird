@@ -1,0 +1,2 @@
+#define OI_GIT_INFO_PRESENT
+ #define OI_GIT_HEAD 0x197f2a9

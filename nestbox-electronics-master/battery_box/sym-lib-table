@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "Nestbox_v2-rescue")(type "Legacy")(uri "${KIPRJMOD}/Nestbox_v2-rescue.lib")(options "")(descr ""))
+  (lib (name "Octanis3")(type "Legacy")(uri "${KIPRJMOD}/../lib_sch/Octanis3.lib")(options "")(descr ""))
+  (lib (name "RFID_BOARD_V3_EM4095-rescue")(type "Legacy")(uri "${KIPRJMOD}/../lib_sch/RFID_BOARD_V3_EM4095-rescue.lib")(options "")(descr ""))
+  (lib (name "MIC94085YFT-TR")(type "Legacy")(uri "${KIPRJMOD}/../lib_sch/MIC94085YFT-TR.lib")(options "")(descr ""))
+  (lib (name "xbee")(type "Legacy")(uri "${KIPRJMOD}/../lib_sch/xbee.lib")(options "")(descr ""))
+  (lib (name "FSUSB42UMX")(type "Legacy")(uri "/Users/raffael/octanis/clients/lipd/electronics/rev1-docking-station/FSUSB42UMX.lib")(options "")(descr ""))
+  (lib (name "BD2220G")(type "Legacy")(uri "/Users/raffael/octanis/clients/lipd/electronics/rev1-docking-station/BD2220G.lib")(options "")(descr ""))
+  (lib (name "TL6330AF200Q")(type "Legacy")(uri "/Users/raffael/octanis/clients/lipd/electronics/rev1-docking-station/TL6330AF200Q.lib")(options "")(descr ""))
+)
