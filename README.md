@@ -20,7 +20,6 @@ This repository contains the firmware, PCB design files, and mechanical designs 
 
 ## Repository Structure
 
-- **`/docs`**: Documentation files for the Anisca Bird system
 - **`/mechanical`**: Mechanical design files (STEP format)
 - **`/nestbox-electronics-master`**: PCB design files for the main board, RFID antenna, and battery box
   - **`/LF_Antenna_v3`**: RFID antenna PCB design
